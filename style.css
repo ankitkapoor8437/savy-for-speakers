@@ -564,6 +564,93 @@ ul li:hover {
     line-height: 1.5;
 }
 
+
+/* Sponser Section */
+.sponser-container {
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sponser-section {
+    width: 1000px;
+}
+
+.sponser-heading {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponser-heading span:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+.sponser-heading span:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.4;
+    color: #7355F7;
+}
+
+.sponser-logo-1 {
+    /* margin-top: 49px; */
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: flex-start;
+
+}
+
+.sponser-logo-1 span {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbd8e7;
+    
+}
+
+.sponser-logo-2 {
+    /* margin-top: 49px; */
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: flex-end;
+
+}
+
+.sponser-logo-2 span {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbd8e7;
+}
+
+
+
+
+
 /* Footer Section */
 .footer {
     height: 380px;
@@ -604,12 +691,12 @@ ul li:hover {
     color: #7355F7;
 }
 
-.footer-1 span:nth-of-type(3){
+.footer-1 span:nth-of-type(3) {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.6;
     color: gray;
-} 
+}
 
 
 .footer-2 {
@@ -622,20 +709,20 @@ ul li:hover {
     gap: 10px;
 }
 
-.footer-2 span:nth-of-type(1){
+.footer-2 span:nth-of-type(1) {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.3;
     color: black;
 }
 
-.footer-2 span:nth-of-type(2){
+.footer-2 span:nth-of-type(2) {
     display: flex;
     flex-direction: column;
 }
 
 
-.footer-2 span:nth-of-type(2) span{
+.footer-2 span:nth-of-type(2) span {
     color: gray;
     font-size: 15px;
     line-height: 1.6;
@@ -652,20 +739,20 @@ ul li:hover {
     gap: 10px;
 }
 
-.footer-3 span:nth-of-type(1){
+.footer-3 span:nth-of-type(1) {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.3;
     color: black;
 }
 
-.footer-3 span:nth-of-type(2){
+.footer-3 span:nth-of-type(2) {
     display: flex;
     flex-direction: column;
 }
 
 
-.footer-3 span:nth-of-type(2) span{
+.footer-3 span:nth-of-type(2) span {
     color: gray;
     font-size: 15px;
     line-height: 1.6;
