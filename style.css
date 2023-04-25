@@ -362,6 +362,7 @@ ul li:hover {
 /* Keynote Section */
 .container-keynote-section {
     background-color: #e9e9f0;
+    height: 650px;
 }
 
 .container-keynote {
@@ -427,4 +428,246 @@ ul li:hover {
 .seperator-keynote {
     width: 100%;
     height: 50px;
+}
+
+
+/* Places Sections */
+
+.container-countries {
+    height: 238px;
+    background-color: #7355F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.country {
+    color: white;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.country span:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.country span:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.country span:nth-of-type(3) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/* Timeline Section */
+
+
+/* Testimonial Section */
+.testimonial-header {
+    height: 240px
+}
+
+.testimonial-header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+
+.testimonial-header div span:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #7355F7;
+}
+
+.testimonial-header div span:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.3;
+    color: black;
+}
+
+.testimonial-review {
+    height: 456px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewbox {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    padding: 40px;
+    display: flex;
+    border: 1px solid #7355F7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.reviewbox-back {
+    position: absolute;
+    background-color: #7355F7;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #7355F7;
+    padding: 40px;
+    left: 10px;
+    top: 10px;
+    z-index: -10;
+    border-radius: 10px;
+}
+
+.reviewbox span:nth-of-type(1) img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 50%;
+    max-width: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.reviewbox span:nth-of-type(2) {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.6;
+}
+
+.reviewbox span:nth-of-type(3) {
+    font-size: 16px;
+    color: #7355F7;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+.footer {
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer-1 {
+    width: 475px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-1 span:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 43px;
+    letter-spacing: 1.1;
+    color: #7355F7;
+}
+
+.footer-1 p {
+    color: gray;
+    text-align: justify;
+}
+
+.footer-1 span:nth-of-type(2) {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-1 span:nth-of-type(2) .fa-brands {
+    font-size: 40px;
+    color: #7355F7;
+}
+
+.footer-1 span:nth-of-type(3){
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: gray;
+} 
+
+
+.footer-2 {
+    width: 240px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.footer-2 span:nth-of-type(1){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    color: black;
+}
+
+.footer-2 span:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-2 span:nth-of-type(2) span{
+    color: gray;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.footer-3 {
+    width: 240px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.footer-3 span:nth-of-type(1){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    color: black;
+}
+
+.footer-3 span:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-3 span:nth-of-type(2) span{
+    color: gray;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
 }
